@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout Page</title>
+  <link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+  <header>
+    <h1>Checkout</h1>
+  </header>
+
+  <main>
+    </section>
+    <section class="order-summary">
+      <h2>Order Summary</h2>
+      <table id="order-items">
+        <thead>
+          <tr>
+            <th>Item</th>
+            <th>Price</th>
+            <th>Quantity</th>
+          </tr>
+        </thead>
+        <tbody>
+          </tbody>
+      </table>
+      <p id="total-price">Total Price: Rs0.00</p>
+      <h3 id="del"><b>*COD AVAILABLE ONLY*</b></h3>
+    </section>
+
+    <section class="billing-info">
+      <h2>Billing Information</h2>
+      <form id="billing-form">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" required></textarea>
+
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" required>
+
+        <label for="state">State:</label>
+        <input type="text" id="state" name="state" required>
+
+        <label for="zip">Zip Code:</label>
+        <input type="text" id="zip" name="zip" required>
+
+        <button type="submit">Place Order</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
